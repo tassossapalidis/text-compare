@@ -172,7 +172,7 @@ class TextModel:
 				else:
 					self.punctuation[char] = 1
 
-		#Stop words
+		# Stop words
 		stop_words_list = ["ourselves", "hers", "between", "yourself", \
 		"but","again", "there", "about", "once", "during", "out", "very", \
 		"having", "with", "they", "own", "an", "be", "some", "for", "do", \
@@ -393,7 +393,7 @@ def similarity_scores(self, other):
 
 def run_experiments():
 	''' Test compare method with multiple sources '''
-	# Test in homework document
+	# Simple texts
 	source1 = TextModel('source1')
 	source1.add_string('It is interesting that she is interested.')
 
